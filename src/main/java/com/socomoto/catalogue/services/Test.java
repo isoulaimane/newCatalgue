@@ -9,4 +9,11 @@ public class Test {
     public String test(){
         return "good job";
     }
+
+    @GetMapping("/param")
+    public String param(String t){
+        return "Message bien reçu " + t;
+    }
+
+
 }
